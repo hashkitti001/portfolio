@@ -1,6 +1,6 @@
 import React from 'react'
 import "../styles/experience.css"
-import { AiOutlineHtml5 } from 'react-icons/ai'
+// import { AiOutlineHtml5 } from 'react-icons/ai'
 import { BiLogoBootstrap, BiLogoCss3 } from 'react-icons/bi'
 import { BiLogoJavascript } from 'react-icons/bi'
 import { BiLogoReact } from 'react-icons/bi'
@@ -22,7 +22,7 @@ const Experience = () => {
           <h3>Frontend Development</h3>
           <div className="experience_content">
             <article className='experience_details'>
-              <AiOutlineHtml5 className="skillicon" />
+{/*               <AiOutlineHtml5 className="skillicon" /> */}
               <h4>HTML</h4>
             </article>
             <article className='experience_details'>
