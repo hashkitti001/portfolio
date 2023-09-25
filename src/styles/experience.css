@@ -1,0 +1,66 @@
+.experience_container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:2rem;
+}
+.experience_container > div {
+    background: var(--color-bg-variant);
+    padding:2.4rem 5rem;
+    border-radius: 2rem;
+    border:3px solid transparent;
+}
+.experience_container > div:hover{
+    background: transparent;
+    cursor: default;
+    border-color: var(--color-primary-variant);
+    transition: var(--transition);
+}
+.experience_container > h3{
+    text-align: center;
+}
+.experience_content{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.experience_details{
+    display:flex;
+    gap:1rem;
+    padding:10px;
+}
+.skillicon{
+    font-size: 40px;
+}
+@media(max-width:600px) {
+    .container{
+        width: var(--container-width-sm);
+    }
+    .experience_container{
+        gap:1rem;
+    }
+    .experience_container > div{
+        width:100%;
+        padding:2rem 1rem;
+        margin:0 auto;
+    }
+    /* .about_me{
+        width:65%;
+        margin:0 auto 3rem;
+    } */
+}
+@media(max-width:1024px) {
+    .experience_container{
+        grid-template-columns: 1fr;
+    }
+    .experience_container > div{
+        width:88%;
+        padding:2rem;
+        margin:0 auto;
+    }
+    .about_me{
+        width:65%;
+        margin:0 auto 3rem;
+    }
+    /* .about_cards{
+       
+    } */
+}
