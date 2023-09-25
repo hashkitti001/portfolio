@@ -2,6 +2,7 @@ import React from 'react'
 import {FaAward} from 'react-icons/fa'
 import {VscFolderLibrary} from 'react-icons/vsc'
 import '../styles/about.css'
+import dp2 from "/src/assets/dp1.png"
 const Intro = () => {
   return (
     <section id="about">
@@ -9,7 +10,7 @@ const Intro = () => {
       <div className="container about_container">
         <div className="about_me">
           <div className="about_me-image">
-            <img className="dp" src="./src/assets/dp1.png" alt="Profile pix"/>
+            <img className="dp" src={dp2} alt="Profile pix"/>
           </div>
         </div>
         <div className="about_content">
