@@ -26,10 +26,10 @@ const Intro = () => {
             </article>
           </div>
           <p>I am a sophomore at the Federal University of Technology, Akure currently pursuing a bachelor's degree in Software
-      Engineering.<br>
+      Engineering.<br/>
       I have experience in frontend development, version control systems, Linux and Windows environments from college
       coursework, online boot camps and courses, and I hope to expand my skill set to include backend development,
-      mobile app development and machine learning.<br>I enjoy working in collaborative, fast paced work environments,
+      mobile app development and machine learning.<br/>I enjoy working in collaborative, fast paced work environments,
       and I'm also looking for opportunities to grow and apply my skills</p>
         <a className="btn btn-primary" href="#contact">Let's Talk</a>
 
