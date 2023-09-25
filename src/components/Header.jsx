@@ -2,6 +2,7 @@ import React from 'react'
 import "../styles/header.css"
 import Cta from './cta'
 import Socials from './Socials'
+import dp from "/src/assets/dp2.png"
 const Header = () => {
   return (
     <div className="container header__container">
@@ -13,11 +14,11 @@ const Header = () => {
          <Cta/>
          <Socials/>
          <div className="me animate__animated animated animate__bounceInUp">
-            <img className="dp" src="./src/assets/dp2.png" alt="Profile pix" />
+            <img className="dp" src={dp} alt="Profile pix" />
          </div>
          
     </div>
   )
-}
+} 
 
 export default Header;
