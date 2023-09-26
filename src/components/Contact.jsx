@@ -8,6 +8,7 @@ const Contact = () => {
         emailjs.sendForm('service_js6a89o', 'template_65arkul', form.current, 'dxDYfQLjsm1i-TC9w')
           .then((result) => {
               console.log(result.text);
+              Swal.fire('Email sent');
           }, (error) => {
               console.log(error.text);
           });
