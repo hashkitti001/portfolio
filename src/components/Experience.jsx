@@ -62,26 +62,17 @@ const Experience = () => {
             <SiExpress className="skillicon"/>
             <h4>Express.js</h4>
             </article>
-            <article className='experience_details'>
-            <SiSqlite className="skillicon"/>
-            <h4>SQLite</h4>
-            </article>
+           
            </div>
         </div>
         <div className="exp experience_others">
           <h3>Others</h3>
         <article className='experience_details'>
             <SiGnubash className="skillicon"/>
-            <h4>Bash</h4>
+            <h4>Linux</h4>
             </article>
         </div>
-        <div className="exp experience_mobile">
-        <h3>Mobile</h3>
-        <article className='experience_details'>
-            <BiLogoReact className="skillicon"/>
-            <h4>React Native</h4>
-            </article>
-        </div>
+
       </div>
     </section>
   )
