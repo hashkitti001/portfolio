@@ -48,6 +48,16 @@ const Projects = () => {
             <a className="btn btn-primary" href="https://odinchat.onrender.com/">Preview Link</a>
         </div>
         </div>
+
+        
+         <div className="portfolio_item">
+          <img className="project-img" src="https://i.imgur.com/FyNjDkK.jpg" alt="Chat app" />
+          <h3>Calculator</h3>
+          <div className="project-buttons">
+            <a className="btn" href="https://github.com/hashkitti001/OdinProjectFiles-/tree/main/Odin%20Calculator">Repo Link</a>
+            <a className="btn btn-primary" href="https://rawcdn.githack.com/hashkitti001/OdinProjectFiles-/258f8cf797cbc726474035eb70c871625a530e61/Odin%20Calculator/index.html">Preview Link</a>
+        </div>
+        </div>
       </div>
     </section>
   )
