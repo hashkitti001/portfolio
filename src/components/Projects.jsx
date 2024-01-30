@@ -51,7 +51,7 @@ const Projects = () => {
 
         
          <div className="portfolio_item">
-          <img className="project-img" src="https://i.imgur.com/FyNjDkK.jpg" alt="Chat app" />
+          <img className="project-img" src="https://i.imgur.com/Fuv3hBO.jpg" alt="Calculator" />
           <h3>Calculator</h3>
           <div className="project-buttons">
             <a className="btn" href="https://github.com/hashkitti001/OdinProjectFiles-/tree/main/Odin%20Calculator">Repo Link</a>
