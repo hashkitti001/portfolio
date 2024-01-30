@@ -18,12 +18,12 @@ const Intro = () => {
             <article className='about_card'>
               <FaAward className="about_icon"/>
                 <h5>Experience</h5>
-                <small>2 Years of Working Experience</small>
+                <small>2 Years of Building Projects</small>
               </article>
             <article className='about_card'>
               <VscFolderLibrary className="about_icon"/>
                 <h5>Projects</h5>
-                <small>8 Complete Projects</small>
+                <small>8+ Complete Projects</small>
             </article>
           </div>
   <p>Hello! I am a student at the Federal University of Technology, Akure, actively pursuing a bachelor's degree in Software Engineering. <br/>
