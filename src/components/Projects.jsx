@@ -39,13 +39,14 @@ const Projects = () => {
             <a className="btn btn-primary" href="https://rawcdn.githack.com/hashkitti001/OdinProjectFiles-/19e01ff771dd464e25efdfd6237d94005525dd9b/TicTacToe%20Project/index.html">Preview Link</a>
           </div>
         </div>
-        <div className="portfolio_item">
-          <img className="project-img" src="https://www.careertoolbelt.com/wp-content/uploads/2019/08/Screen-Shot-2019-08-29-at-8.41.29-AM.png" alt="" />
-          <h3>CV builder app</h3>
+       
+         <div className="portfolio_item">
+          <img className="project-img" src="" alt="" />
+          <h3>Chat App </h3>
           <div className="project-buttons">
-            <a className="btn" href="https://github.com/hashkitti001/odin-cv">Repo Link</a>
-            <a className="btn btn-primary" href="https://odincv.onrender.com/">Preview Link</a>
-          </div>
+            <a className="btn" href="https://github.com/hashkitti001/chatapp">Repo Link</a>
+            <a className="btn btn-primary" href="https://odinchat.onrender.com/">Preview Link</a>
+        </div>
         </div>
       </div>
     </section>
