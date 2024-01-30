@@ -41,7 +41,7 @@ const Projects = () => {
         </div>
        
          <div className="portfolio_item">
-          <img className="project-img" src="" alt="" />
+          <img className="project-img" src="../assets/chatapp.jpg" alt="" />
           <h3>Chat App </h3>
           <div className="project-buttons">
             <a className="btn" href="https://github.com/hashkitti001/chatapp">Repo Link</a>
