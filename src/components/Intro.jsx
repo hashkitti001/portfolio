@@ -26,12 +26,11 @@ const Intro = () => {
                 <small>8 Complete Projects</small>
             </article>
           </div>
-          <p>I am a sophomore at the Federal University of Technology, Akure currently pursuing a bachelor's degree in Software
-      Engineering.<br/>
-      I have experience in frontend development, version control systems, Linux and Windows environments from college
-      coursework, online boot camps and courses, and I hope to expand my skill set to include backend development,
-      mobile app development and machine learning.<br/>I enjoy working in collaborative, fast paced work environments,
-      and I'm also looking for opportunities to grow and apply my skills</p>
+  <p>Hello! I am a student at the Federal University of Technology, Akure, actively pursuing a bachelor's degree in Software Engineering. <br/>
+My academic journey has equipped me with a strong foundation in web development, version control systems, and proficiency in the Linux command line. <br/>
+    This expertise has been cultivated through rigorous college coursework, online boot camps, and various courses, with a commitment to expanding my skill set continuously.<br/>
+Currently, I am seeking opportunities that not only align with my current skill set but also provide a platform for continuous growth and practical application of my expanding skills.
+</p>
         <a className="btn btn-primary" href="#contact">Let's Talk</a>
 
         </div>
